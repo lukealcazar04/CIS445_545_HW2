@@ -1,0 +1,31 @@
+.container{
+    position: relative;
+    color: white;
+    font-size: 20px;
+}
+
+.imgtextleft{
+    position: absolute;
+    top: 35px;
+    left: 16px;
+    font-size: 20px;
+}
+
+.imgtextright{
+    position: absolute;
+    top: 70px;
+    right: 250px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+  
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
